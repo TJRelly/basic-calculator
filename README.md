@@ -1,10 +1,8 @@
-### Answer: Build a Simple Calculator using JS OOP best practices
-
-![Calculator](calculator.png)
-
 # 🔢 #100Devs Push Project001: Calculator
 
-### Answer: Build a Simple Calculator using JS OOP best practices
+### Answer:
+
+![Calculator](calculator.png)
 
 - Redesigned front end of calculator
 - Implemented new CSS Nesting features
