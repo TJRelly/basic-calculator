@@ -1,6 +1,6 @@
 ### Answer: Build a Simple Calculator using JS OOP best practices
 
-![Calculator](calculator2.png)
+![Calculator](calculator.png)
 
 # 🔢 #100Devs Push Project001: Calculator
 
