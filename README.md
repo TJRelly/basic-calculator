@@ -1,6 +1,6 @@
 ### Answer: Build a Simple Calculator using JS OOP best practices
 
-![Calculator](calculator2.jpg)
+![Calculator](calculator2.png)
 
 # 🔢 #100Devs Push Project001: Calculator
 
@@ -9,10 +9,6 @@
 - Redesigned front end of calculator
 - Implemented new CSS Nesting features
 - Formated floats with locale string method
-
-![Calculator](calculator.png)
-
--
 
 ### Goal: Build a Simple Calculator using JS OOP best practices
 
