@@ -1,5 +1,15 @@
 # 🔢 #100Devs Push Project001: Calculator
 
+### Answer: Build a Simple Calculator using JS OOP best practices
+
+- Redesigned front end of calculator
+- Implemented new CSS Nesting features
+- Formated floats with locale string method
+
+![Calculator](calculator.png)
+
+-
+
 ### Goal: Build a Simple Calculator using JS OOP best practices
 
 ### What it should look like:
