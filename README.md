@@ -1,3 +1,7 @@
+### Answer: Build a Simple Calculator using JS OOP best practices
+
+![Calculator](calculator2.jpg)
+
 # 🔢 #100Devs Push Project001: Calculator
 
 ### Answer: Build a Simple Calculator using JS OOP best practices
