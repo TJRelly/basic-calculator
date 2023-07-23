@@ -2,7 +2,7 @@
 
 ### Answer:
 
-![Calculator](calculator.png)
+<a href = "" target = "_blank"><img src="calculator.png" alt="100Devs Calculator"/></a>
 
 - Redesigned front end of calculator
 - Implemented new CSS Nesting features
