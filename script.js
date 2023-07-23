@@ -32,17 +32,20 @@ class Calculator {
 
   compute() {
     let computation
+    let answer
+
     const prev = parseFloat(this.previousOperand)
     const current = parseFloat(this.currentOperand)
 
     if (isNaN(prev) || isNaN(current)) return
 
     if (this.operation === "×") this.operation = "*"
-    else if (this.operation === "÷") this.operation = "/"
+    if (this.operation === "÷") this.operation = "/"
     
     computation = math.evaluate(prev + this.operation + current)
+    answer = math.format(computation, {precision: 14}) 
 
-    this.currentOperand = computation
+    this.currentOperand = answer
     this.operation = undefined
     this.previousOperand = ""
     this.previousOperandTextElement.innerText = ""
