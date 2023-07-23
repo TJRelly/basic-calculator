@@ -33,30 +33,19 @@ class Calculator {
   compute() {
     let computation
     const prev = parseFloat(this.previousOperand)
-    console.log(prev)
     const current = parseFloat(this.currentOperand)
-    console.log(current)
+
     if (isNaN(prev) || isNaN(current)) return
-    switch (this.operation) {
-      case "+":
-        computation = prev + current
-        break
-      case "-":
-        computation = prev - current
-        break
-      case "×":
-        computation = prev * current
-        break
-      case "÷":
-        computation = prev / current
-        break
-      default:
-        return
-    }
+
+    if (this.operation === "×") this.operation = "*"
+    else if (this.operation === "÷") this.operation = "/"
+    
+    computation = math.evaluate(prev + this.operation + current)
+
     this.currentOperand = computation
     this.operation = undefined
     this.previousOperand = ""
-    this.previousOperandTextElement.innerText =""
+    this.previousOperandTextElement.innerText = ""
     console.log(this)
   }
 
@@ -85,8 +74,10 @@ class Calculator {
     )
 
     if (this.operation != null) {
-      this.previousOperandTextElement.innerText = `${this.getDisplayNumber(this.previousOperand)} ${this.operation}`
-    } 
+      this.previousOperandTextElement.innerText = `${this.getDisplayNumber(
+        this.previousOperand
+      )} ${this.operation}`
+    }
   }
 }
 

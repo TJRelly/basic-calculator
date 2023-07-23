@@ -7,6 +7,7 @@
 - Redesigned front end of calculator
 - Implemented new CSS Nesting features
 - Formated floats with locale string method
+- Added math.js library to handle rounding errors
 
 ### Goal: Build a Simple Calculator using JS OOP best practices
 
