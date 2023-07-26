@@ -1,13 +1,17 @@
 # 🔢 #100Devs Push Project001: Calculator
 
-### Answer:
+### Answer: Javascript Calculator using OOP
 
-<a href = "https://tjrelly.github.io/basic-calculator/" target = "_blank"><img src="calculator.png" alt="100Devs Calculator"/></a>
+https://github.com/TJRelly/basic-calculator/assets/94482664/524cd2bc-200f-4c22-be43-8323b70da67b
 
 - Redesigned front end of calculator
 - Implemented new CSS Nesting features
 - Formated floats with locale string method
 - Added math.js library to handle rounding errors
+
+### Live Site: Click the Image
+
+<a href = "https://tjrelly.github.io/basic-calculator/" target = "_blank"><img src="calculator.png" alt="100Devs Calculator" width="400"/></a>
 
 ### Goal: Build a Simple Calculator using JS OOP best practices
 
